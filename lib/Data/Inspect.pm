@@ -21,3 +21,20 @@ sub inspect {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Data::Inspect - Data::Printer but autoboxed
+
+=head1 SYNOPSIS
+
+    use Data::Inspect
+
+    print qw(a b c)->inspect;
+
+=head1 DESCRIPTION
+
+A simple wrapper around Data::Printer via autobox.
+
