@@ -20,7 +20,4 @@ sub inspect {
   return Data::Printer::p(@_);
 }
 
-
-
-
 1;
