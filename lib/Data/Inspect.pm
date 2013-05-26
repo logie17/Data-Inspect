@@ -9,7 +9,7 @@ use Data::Printer colored => 1, deparse => 1;
 
 sub import {
   my $class = shift;
-  
+
   $class->SUPER::import(
     ARRAY => 'Data::Inspect',
     HASH  => 'Data::Inspect',
