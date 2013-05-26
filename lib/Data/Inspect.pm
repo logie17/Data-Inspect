@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Data::Inspect;
 
-our $VERSION = '0.001';
+our $VERSION = '0.01';
 
 use parent 'autobox';
 use Data::Printer colored => 1, deparse => 1;
