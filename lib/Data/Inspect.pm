@@ -32,7 +32,7 @@ Data::Inspect - Data::Printer but autoboxed
 
 =head1 SYNOPSIS
 
-    use Data::Inspect
+    use Data::Inspect;
 
     print qw(a b c)->inspect;
 
